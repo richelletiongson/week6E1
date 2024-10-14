@@ -5,8 +5,7 @@ const readline = require("readline").createInterface({
 /* 
 if function - guess is bigger than answer "too big"
 else if function - guess is smaller than answer "too small"
-else function - 
-
+else function - "you win"
 */
   function GuessingGame(answer, guess) {
     if (guess > answer) {
