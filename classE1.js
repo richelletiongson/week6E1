@@ -8,7 +8,7 @@ if function - age is less than 13, "leave!"
   else if function - if age is between 19 and 50 "drink away"
   else if function - age is over 50 and under 70 "watch your health"
   else if  function - age is over 70 "watch health and life"
-  else if function - invalid age.
+  else function - "invalid age."
 */
   function CheckDrinkingAge(age){
     if (age <13) {
